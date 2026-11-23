@@ -1,0 +1,61 @@
+Source: testproject
+Section: misc
+Priority: optional
+Maintainer: Molior Test <test@molior.info>
+Build-Depends: debhelper-compat (= 13)
+Standards-Version: 4.7.2
+
+Package: testproject-vbox
+Section: misc
+Architecture: all
+Depends: ${misc:Depends}, net-tools, ifupdown, htop, isc-dhcp-client,
+  iputils-ping, bash-completion, vim, wget, telnet, tree,
+  linux-image-amd64, grub-pc, xserver-xorg-video-vesa,
+  xserver-xorg-input-evdev, xserver-xorg, nodm, lxde, polkitd, rsyslog, acpi-support-base,
+  acpid, lxterminal
+Description: Testproject VirtualBox deployment
+
+Package: testproject-dir
+Section: misc
+Architecture: all
+Depends: ${misc:Depends}, net-tools, ifupdown, htop, isc-dhcp-client,
+  iputils-ping, bash-completion, vim, wget, telnet, tree, grub-pc, xserver-xorg-video-vesa,
+  xserver-xorg-input-evdev, xserver-xorg, nodm, lxde, polkitd, rsyslog, acpi-support-base,
+  acpid, lxterminal
+Description: Testproject dir deployment
+
+Package: testproject-devel
+Section: misc
+Architecture: all
+Depends: ${misc:Depends}, net-tools, ifupdown, htop, isc-dhcp-client,
+  iputils-ping, bash-completion, vim, wget, telnet, tree, grub-pc, xserver-xorg-video-vesa,
+  xserver-xorg-input-evdev, xserver-xorg, nodm, lxde, polkitd, rsyslog, acpi-support-base,
+  acpid, lxterminal
+Description: Testproject devel deployment
+
+Package: testproject-docker
+Section: misc
+Architecture: all
+Depends: ${misc:Depends}, net-tools, ifupdown, htop, isc-dhcp-client,
+  iputils-ping, bash-completion, vim, wget, telnet, tree, grub-pc,
+  rsyslog, acpi-support-base,
+  acpid, lxterminal
+Description: Testproject docker deployment
+
+Package: testproject-lxd
+Section: misc
+Architecture: all
+Depends: ${misc:Depends}, net-tools, ifupdown, htop, isc-dhcp-client,
+  iputils-ping, bash-completion, vim, wget, telnet, tree, grub-pc,
+  polkitd, rsyslog, acpi-support-base,
+  acpid, lxterminal
+Description: Testproject lxd deployment
+
+Package: testproject-image
+Section: misc
+Architecture: all
+Depends: ${misc:Depends}, net-tools, ifupdown, htop, isc-dhcp-client,
+  iputils-ping, bash-completion, vim, wget, telnet, tree, grub-pc,
+  polkitd, rsyslog, acpi-support-base,
+  acpid, lxterminal
+Description: Testproject image deployment
