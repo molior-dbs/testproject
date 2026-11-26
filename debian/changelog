@@ -1,3 +1,9 @@
+testproject (3.0.15) trixie; urgency=medium
+
+  * installer: install e2fsprogs for mkfs.ext4 in the initrd
+
+ -- Molior Test <test@molior.info>  Thu, 26 Nov 2026 17:41:56 +0100
+
 testproject (3.0.14) trixie; urgency=medium
 
   * vbox: show background.jpg on the LXDE desktop
