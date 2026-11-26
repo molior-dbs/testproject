@@ -1,3 +1,9 @@
+testproject (3.0.14) trixie; urgency=medium
+
+  * vbox: show background.jpg on the LXDE desktop
+
+ -- Molior Test <test@molior.info>  Thu, 26 Nov 2026 15:50:02 +0100
+
 testproject (3.0.13) trixie; urgency=medium
 
   * vbox: log in the user molior automatically (lightdm autologin, LXDE session)
