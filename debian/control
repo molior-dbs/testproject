@@ -56,7 +56,8 @@ Package: testproject-image
 Section: misc
 Architecture: all
 Depends: ${misc:Depends}, net-tools, ifupdown, htop, isc-dhcp-client,
-  iputils-ping, bash-completion, vim, wget, telnet, tree, grub-pc,
+  iputils-ping, bash-completion, vim, wget, telnet, tree,
+  linux-image-amd64, grub-pc,
   polkitd, rsyslog, acpi-support-base,
   acpid, lxterminal
 Description: Testproject image deployment
