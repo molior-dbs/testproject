@@ -28,7 +28,8 @@ Package: testproject-devel
 Section: misc
 Architecture: all
 Depends: ${misc:Depends}, net-tools, ifupdown, htop, isc-dhcp-client,
-  iputils-ping, bash-completion, vim, wget, telnet, tree, grub-pc, xserver-xorg-video-vesa,
+  iputils-ping, bash-completion, vim, wget, telnet, tree,
+  linux-image-amd64, grub-pc, xserver-xorg-video-vesa,
   xserver-xorg-input-evdev, xserver-xorg, nodm, lxde, polkitd, rsyslog, acpi-support-base,
   acpid, lxterminal
 Description: Testproject devel deployment
