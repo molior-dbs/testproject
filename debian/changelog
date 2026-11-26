@@ -1,3 +1,9 @@
+testproject (3.0.17) trixie; urgency=medium
+
+  * image: depend on linux-image-amd64, the image had no kernel
+
+ -- Molior Test <test@molior.info>  Thu, 26 Nov 2026 18:39:10 +0100
+
 testproject (3.0.16) trixie; urgency=medium
 
   * devel: depend on linux-image-amd64, the installed system of the installer ISO had no kernel
