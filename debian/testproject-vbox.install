@@ -1,1 +1,3 @@
 vbox/50-testproject-autologin.conf usr/share/lightdm/lightdm.conf.d/
+vbox/background.jpg usr/share/testproject/
+vbox/pcmanfm.conf etc/skel/.config/pcmanfm/LXDE/
