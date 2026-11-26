@@ -1,0 +1,11 @@
+#!/bin/sh
+set -e
+
+# the user of the lightdm autologin (vbox/50-testproject-autologin.conf); lightdm does not log in root automatically
+if [ "$1" = "configure" ] && ! getent passwd molior >/dev/null; then
+    useradd --create-home --shell /bin/bash --comment "Molior Test" molior
+fi
+
+#DEBHELPER#
+
+exit 0
