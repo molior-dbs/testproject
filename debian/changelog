@@ -1,3 +1,9 @@
+testproject (3.0.12) trixie; urgency=medium
+
+  * deploy: set INSTALL_PACKAGE for molior-tools 1.5
+
+ -- Molior Test <test@molior.info>  Thu, 26 Nov 2026 12:12:24 +0100
+
 testproject (3.0.11) trixie; urgency=medium
 
   * Initial release for the molior system tests.
